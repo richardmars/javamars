@@ -1,0 +1,1 @@
+关键在于SquareCache中的getShape函数，每次都是clone一个cached对象。
