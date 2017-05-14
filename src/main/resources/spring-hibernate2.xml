@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
-	xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
 	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/aop 
@@ -19,8 +21,8 @@
 		<property name="password" value="1" />
 	</bean>
 
-	<context:component-scan base-package="io.github.richardmars.spring.hibernate.dao.impl" />
-	<context:component-scan base-package="io.github.richardmars.spring.hibernate.service.impl" />
+	<context:component-scan base-package="com.xic.learn.spring.hibernate.dao.impl" />
+	<context:component-scan base-package="com.xic.learn.spring.hibernate.service.impl" />
 
 	<!-- Hibernate 4 SessionFactory Bean definition -->
 	<bean id="sessionFactory"
@@ -28,8 +30,8 @@
 		<property name="dataSource" ref="dataSource" />
 		
 		<!-- <property name="annotatedClasses"> <list> 
-			<value>io.github.richardmars.spring.hibernate.model.Person</value> </list> </property> -->
-		<property name="packagesToScan" value="io.github.richardmars.spring.hibernate.model" />
+			<value>com.xic.learn.spring.hibernate.model.Person</value> </list> </property> -->
+		<property name="packagesToScan" value="com.xic.learn.spring.hibernate.model" />
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
