@@ -7,3 +7,7 @@ Proxy Pattern（代理模式）：为其他对象创建一个代理，并以控�
 ## Prototype
 
 通过clone的方式来创建对象，从而提高性能。
+
+## NullObject
+
+通过不作为的NullObject来执行程序，保证程序统一性，减少null check。
