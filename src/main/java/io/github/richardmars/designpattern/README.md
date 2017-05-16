@@ -1,4 +1,5 @@
-## Facade Pattern 和 Proxy Pattern的区别：
+# Structural pattern
+## Facade 和 Proxy 的区别：
 
 Facade Pattern（门面模式）：门面模式要求一个子系统的外部与其内部的通信必须通过一个统一的门面(Facade)对象进行。门面模式提供一个高层次的接口，使得子系统更易于使用。
 
@@ -8,6 +9,19 @@ Proxy Pattern（代理模式）：为其他对象创建一个代理，并以控�
 
 通过clone的方式来创建对象，从而提高性能。
 
+# Behaviour pattern
 ## NullObject
 
 通过不作为的NullObject来执行程序，保证程序统一性，减少null check。
+
+## Template
+
+对象执行操作的顺序固定（有模板），只是每个步骤的具体工作不同。
+
+## Visitor
+
+目标对象类的执行逻辑由visitor决定，可以动态变化。
+
+## Composite entity
+
+综合对象属性的变化会自动更新到依赖对象。
