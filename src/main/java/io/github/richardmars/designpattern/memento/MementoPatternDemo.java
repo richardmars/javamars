@@ -1,7 +1,5 @@
 package io.github.richardmars.designpattern.memento;
 
-import java.util.Date;
-
 public class MementoPatternDemo {
 	public static void main(String[] args) {
 		Originator originator = new Originator();

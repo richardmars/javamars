@@ -8,6 +8,7 @@ public class DaoPatternDemo {
 			System.out.println("Student: [Roll No : " + student.getRollNo() + ", name : " + student.getName() + " ]"); 
 		}
 		
+		// 通过VO交互，不通过单独的属性
 		Student student = studentDao.getAllStudents().get(0);
 		student.setName("Michael");
 		studentDao.updateStudent(student);
