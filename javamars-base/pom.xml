@@ -2,14 +2,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.richardmars</groupId>
-	<artifactId>javamars</artifactId>
+	<artifactId>javamars-base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>javamars</name>
+	<name>javamars-base</name>
 
 	<properties>
 		<maven.compiler.source>1.7</maven.compiler.source>
-		<maven.compiler.target>1.7</maven.compiler.target>
 		<spring.version>4.1.4.RELEASE</spring.version>
 		<hibernate.version>4.3.11.Final</hibernate.version>
 	</properties>
@@ -46,6 +45,11 @@
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
 			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.5.3</version>
 		</dependency>
 	</dependencies>
 </project>
