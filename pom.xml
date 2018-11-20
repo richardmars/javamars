@@ -1,15 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
-	<parent>
-		<groupId>io.github.richardmars</groupId>
-		<artifactId>javamars</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-	</parent>
-	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.richardmars</groupId>
-	<artifactId>javamars-base</artifactId>
+	<artifactId>javamars</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>javamars-base</name>
 
@@ -41,7 +35,6 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>

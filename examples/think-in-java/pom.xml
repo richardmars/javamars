@@ -9,9 +9,9 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.richardmars</groupId>
-	<artifactId>javamars-base</artifactId>
+	<artifactId>think-in-java</artifactId>
 	<packaging>jar</packaging>
-	<name>javamars-base</name>
+	<name>think-in-java</name>
 
 	<properties>
 		<maven.compiler.source>1.7</maven.compiler.source>
