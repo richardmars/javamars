@@ -1,4 +1,7 @@
-# Structural pattern
+# 设计模式
+
+参考[design pattern - tutorialspoint.com](https://www.tutorialspoint.com/design_pattern/index.htm)
+
 ## Facade 和 Proxy 的区别：
 
 Facade Pattern（门面模式）：门面模式要求一个子系统的外部与其内部的通信必须通过一个统一的门面(Facade)对象进行。门面模式提供一个高层次的接口，使得子系统更易于使用。
